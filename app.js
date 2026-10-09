@@ -1,0 +1,1 @@
+function getLocation(){navigator.geolocation.getCurrentPosition(p=>{document.getElementById('status').innerHTML='موقعي: '+p.coords.latitude+', '+p.coords.longitude})}
